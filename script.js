@@ -61,7 +61,7 @@ function timeline1() {
     .to(
       "#pinkflare",
       {
-        bottom: "0%",
+        bottom: "6%",
         duration: 1,
         rotate: "0deg",
         ease: Power1,
@@ -118,7 +118,7 @@ function timeline1() {
       "hello1"
     )
     .to("#pinkbox", {
-      top: "-100%",
+      top: "-50%",
       ease: Power1,
       duration: 5,
     });
@@ -157,7 +157,7 @@ function timeline2() {
     background: "linear-gradient(to right, #d5a7b4,  #B4AAD5)",
   },"a")
   .to("#second #s_top #gradient",{
-    left:"-150%",
+    left:"-200%",
     duration:5,
     ease: Power1,
   },"a")
